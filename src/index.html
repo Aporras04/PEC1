@@ -5,23 +5,151 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Virgen de El Panecillo</title>
   </head>
-  <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
+  <body style="font-family: sans-serif;">
+    <header>
+      <div class="d-flex justify-content-center header-container">
+        <div class="title-container">   
+          <span class="v-title">VIRGEN</span> 
+          <span class="d-title">DE EL</span> 
+          <span class="p-title">PANECILLO</span>
+        </div>
+      </div>
+    </header>
+    
+    <div class="info-container">
+      <h3 class="text-align-center">CIMA DE EL PANECILLO</h3>
+      <div id="flex-container" class="d-flex">
+        <div class="parag-container">
+          <p>El Panecillo es una elevación natural de 3.000 metros sobre el nivel del mar, fue bautizada con este nombre por su parecido con un pequeño pan; está enclavada en el corazón mismo de la ciudad de Quito. Es uno de los sitios más visitados de la ciudad. Por su ubicación se ha convertido en el más importante mirador natural de la ciudad, desde el que se puede apreciar la disposición urbana de la capital, desde su centro histórico y hacia los extremos norte y sur.</p>
+          <p>El lugar recibió su nombre de los conquistadores españoles, pues antes era llamado por los aborígenes como “Shungoloma” que en quichua significa “loma del corazón”. En la época pre incaica, en este sitio existió un templo de adoración al sol, llamado “Yavirac”, el cual fue destruido por Rumiñahui mientras resistía con sus tropas al avance español.</p>
+        </div>
+        <div class="d-flex justify-content-center img-container">
+          <img src="./assets/images/cima-panecillo.jpeg">
+        </div>
+      </div>
+    </div>
+    <div class="info-container">
+      <div id="flex-container" class="d-flex">
+        <div id="olla-container" class="d-flex justify-content-center img-container">
+          <img id="olla-img" style="width:80%;" src="./assets/images/olla-panecillo.jpeg">
+        </div>
+        <div class="parag-container">
+          <p>Como vestigio de la época incaica en este sector encontramos “la Olla del Panecillo”, que es una especie de cisterna circular de ocho metros de profundidad que se llenaba de agua lluvia que era utilizada para el riego de los sembríos del lugar. En tiempos de la colonia el agua que aquí se recolectaba servía para el riego de los jardines de la mansión de Bellavista y luego fue utilizado como sitio de defensa de las tropas coloniales durante la batalla libertaria del Pichincha, el 24 de Mayo de 1822.</p>
+          <p>Durante toda la época colonial el Panecillo marcó el fin de la ciudad por el extremo sur, y por ello los viajeros que llegaban desde ciudades como Ambato, Guayaquil, Latacunga, Lima o Cuenca sabían, al divisarlo, que su llegada a Quito era cuestión de un par de horas nada más. El cerro tenía una parte boscosa, en especial en el costado sur.</p>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="text-align-center">MONUMENTO A LA VIRGEN DEL PANECILLO</h2>
+    <h3 class="text-align-center">VIRGEN DE EL PANECILLO</h3>
+
+    <div class="info-container">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner" style="height: 500px; background-color: black;">
+          <div class="carousel-item active">
+            <img style="width:auto; height:500px; margin-right: auto; margin-left: auto; " src="./assets/images/construccion-base.jpeg" class="d-block" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p>El Panecillo está coronado actualmente por una escultura gigante de aluminio de la «Virgen de Quito», creada en 1975 por el español Agustín de la Herrán Matorras, el cual se basó en la Virgen de Legarda o Apocalíptica; obra del siglo XVIII de Bernardo de Legarda, uno de los más importantes representantes de la Escuela quiteña, la cual la podemos ver en el altar mayor de la Iglesia de San Francisco.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img style="height: 500px; width: auto; margin-right: auto; margin-left: auto;" src="./assets/images/construccion-cuerpo.jpeg" class="d-block" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p>La Majestuosa Virgen de Quito, está compuesta por siete mil cuatrocientas piezas, numeradas cada una de ellas, por lo cual se la pudo unir como un rompecabezas; esta es la mayor representación de aluminio en todo el mundo y ocupa el lugar 58 entre las imágenes más altas del mundo, es incluso más alta que la imagen de El Cristo Redentor de Brasil.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img style="height: 500px; margin-right: auto; margin-left: auto; width: auto;" src="./assets/images/construccion-mano.jpeg" class="d-block" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p>El 4 de noviembre de 1955, se da el permiso para realizar los cimientos o base del monumento, se ve la base, la misma que tiene una altura de once metros, está hecha de piedra y cemento armado, conformada de 18 columnas que representan a las provincias que hasta ese año tenía el Ecuador.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img style="height: 500px; margin-right: auto; margin-left: auto; width: auto;" src="./assets/images/construccion-vista.jpeg" class="d-block" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p>El Padre Rigoberto Correa es el ejecutor de la obra.<br>La obra fue inaugurada el 28 de marzo de 1975 con una misa campal a la que asistieron 1500 personas que subieron en peregrinación desde la Basílica del Voto Nacional (era una pre inauguración, pues todavía faltaban ensamblar las alas).<br>En el mes de septiembre de 1975, se acaban de colocar las alas.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img style="height: 500px; margin-right: auto; margin-left: auto; width: auto;" src="./assets/images/construccion-final.jpeg" class="d-block" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p>La escultura representa a la Virgen María tal como se la describe en el libro bíblico del Apocalipsis: una mujer con alas, una cadena que apresa a la serpiente que tiene bajo sus pies y que representa a la bestia. Es por ello que además de los nombres de Virgen de Quito ó Virgen de Legarda (por el escultor de la obra original), esta estatua también es llamada Virgen del Apocalipsis.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <h3 style="text-align: center;">DATOS IMPORTANTES</h3>
+    <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;">
+      <div class="card" style="width: 18rem;">
+        <img style="height: 229px;" class="card-img-top" src="./assets/images/base.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">El globo terráqueo representa al mundo y sobre éste se encuentra la serpiente, que representa el pecado que Eva cometió</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img style="height: 229px; object-fit: cover;" class="card-img-top" src="./assets/images/altura.jpeg" alt="Card image cap" >
+        <div class="card-body">
+          <p class="card-text">La base de el monumento mide once metros y treinta metros la imagen de la Virgen Santísima</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img style="height: 229px;" style="height: -webkit-fill-available; object-fit: cover;" class="card-img-top" src="./assets/images/vista.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Al ingresar al monumento los visitantes se encuentran a 3016 m.s.n.m. y al llegar al mirador a 3027 m.s.n.m.</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img style="height: 229px;" class="card-img-top" src="./assets/images/peso.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">El peso de la estatua es de 124.000 kilogramos</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img style="height: 229px;" class="card-img-top" src="./assets/images/ala.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">El ala abierta de la Virgen mide 90 metros cuadrados. Estas piezas fueron armadas en tierra y luego ensambladas al cuerpo</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img style="height: 229px; object-fit: cover;" class="card-img-top" src="./assets/images/corona.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">La corona de la Virgen está compuesta de 12 estrellas que representan a los 12 apóstoles o las 12 tribus de Israel</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img style="height: 229px; object-fit: cover;" class="card-img-top" src="./assets/images/cara.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">El rostro de la Virgen María, al igual que el resto de partes, fueron traídas desde España en barco, hasta el Ecuador en 1974</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img style="height: 229px; object-fit: cover;" class="card-img-top" src="./assets/images/serpiente.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">La cabeza del dragón representa al demonio</p>
+        </div>
+      </div>
     </div>
     <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
