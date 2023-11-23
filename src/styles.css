@@ -101,4 +101,8 @@ body {
     .enlace {
         display: block;
     }
+
+    .menu-portada {
+        width: 10rem;
+    }
 }
