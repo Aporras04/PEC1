@@ -1,10 +1,104 @@
 body {
     height: 100vh;
-    color: #1f1f1f;
-    background: linear-gradient(to bottom, #bada55, #c0ffee);
+    margin: 0;
 }
 
-h1 {
-    color: hotpink;
-    font-family: cursive;
+#portada-body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+
+#opc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-portada {
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    width: 25rem;
+    padding: 1rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.menu-portada:hover {
+    color: orange
+}
+
+.content-display {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#container-actores {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box-actores {
+    border: 1px solid black;
+    min-width: 200px;
+    width: 200px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    margin-bottom: 2rem;
+    text-decoration: none;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.life,
+.datos-curiosos,
+.pres-container {
+    width: 80%;
+}
+
+.datos-curiosos ul {
+    list-style: none;
+}
+
+.datos-curiosos ul li p {
+    font-weight: bold;
+}
+
+#enlaces-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.enlace {
+    display: flex;
+}
+
+@media screen and (max-width:500px) {
+    .enlace {
+        display: block;
+    }
 }

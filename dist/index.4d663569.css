@@ -1,12 +1,104 @@
 body {
-  color: #1f1f1f;
-  background: linear-gradient(#bada55, #c0ffee);
   height: 100vh;
+  margin: 0;
 }
 
-h1 {
-  color: #ff69b4;
-  font-family: cursive;
+#portada-body {
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+}
+
+#logo-container {
+  justify-content: center;
+  margin-bottom: 6rem;
+  display: flex;
+}
+
+#opc-container {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.menu-portada {
+  color: #fff;
+  background-color: #0000;
+  border: 1px solid;
+  border-radius: 12px;
+  justify-content: center;
+  width: 25rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  display: flex;
+}
+
+.menu-portada:hover {
+  color: orange;
+}
+
+.content-display {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#container-actores {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+}
+
+.box-actores {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 8px;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  min-width: 200px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  text-decoration: none;
+  display: flex;
+}
+
+.info-box {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.life, .datos-curiosos, .pres-container {
+  width: 80%;
+}
+
+.datos-curiosos ul {
+  list-style: none;
+}
+
+.datos-curiosos ul li p {
+  font-weight: bold;
+}
+
+#enlaces-container {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.enlace {
+  display: flex;
+}
+
+@media screen and (width <= 500px) {
+  .enlace {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
