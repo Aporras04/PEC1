@@ -14,7 +14,11 @@
 
     <div style="display: none;" id="JA" class="info-box">
         <h1>Rachel Green</h1>
-        <img width="50%" src="./img/jennifer.jpeg">
+        <picture style="text-align: center;">
+            <source media="(max-width: 699px)" srcset="img/jennifer_mobile_ipad.png" />
+            <source media="(min-width: 700px)" srcset="img/jennifer.jpeg" />
+            <img width="50%" src="img/jennifer.jpeg" alt="Jennifer Aniston" />
+        </picture>
         <div class="life">
             <p>
                 Jennifer Aniston interpreta a Rachel Green, una entusiasta de la moda y la mejor amiga de Mónica del
@@ -45,6 +49,9 @@
                 Estados Unidos».
             </p>
         </div>
+        <img srcset="img/rachel_mobile.jpg 320w, img/rachel_ipad.webp 640w, img/rachel_desktop.jpeg 1024w"
+            sizes="(max-width: 320px) 320px, (max-width:640px) 640px, (max-width:1024px) 1024px">
+
         <div class="datos-curiosos">
             <h2>Datos curiosos:</h2>
             <ul>
@@ -90,7 +97,11 @@
 
     <div style="display: none;" id="CC" class="info-box">
         <h1>Monica Geller</h1>
-        <img width="50%" src="./img/courtney.jpeg">
+        <picture style="text-align: center;">
+            <source media="(max-width: 699px)" srcset="img/courtney_mobile_ipad.png" />
+            <source media="(min-width: 700px)" srcset="img/courtney.jpeg" />
+            <img width="50%" src="img/courtney.jpeg" alt="Jennifer Aniston" />
+        </picture>
         <div class="life">
             <p>
                 Courteney Cox interpreta a Monica Geller, la "madre" del grupo, es una maniática de la limpieza7​ y
@@ -113,6 +124,7 @@
                 invitados los actores de Friends, Lisa Kudrow, Jennifer Aniston y Matthew Perry.
             </p>
         </div>
+        <img srcset="img/monica_mobile.jpg 1.5x, img/monica_ipad.webp 2x, img/monica_desktop.avif 3x">
         <div class="datos-curiosos">
             <h2>Datos curiosos:</h2>
             <ul>
@@ -160,7 +172,11 @@
 
     <div style="display: none;" id="LK" class="info-box">
         <h1>Phoebe Buffay</h1>
-        <img width="50%" src="./img/lisa.jpg">
+        <picture style="text-align: center;">
+            <source media="(max-width: 699px)" srcset="img/lisa_mobile_ipad.png" />
+            <source media="(min-width: 700px)" srcset="img/lisa.jpg" />
+            <img src="img/lisa.jpg" alt="Jennifer Aniston" />
+        </picture>
         <div class="life">
             <p>
                 Lisa Kudrow interpreta a Phoebe Buffay, una masajista y músico excéntrica.10​ Phoebe tuvo una vida
@@ -228,7 +244,11 @@
 
     <div style="display: none;" id="MP" class="info-box">
         <h1>Chandler Bing</h1>
-        <img width="50%" src="./img/matthew.jpeg">
+        <picture style="text-align: center;">
+            <source media="(max-width: 699px)" srcset="img/matthew_mobile_ipad.png" />
+            <source media="(min-width: 700px)" srcset="img/matthew.jpeg" />
+            <img width="50%" src="img/matthew.jpeg" alt="Jennifer Aniston" />
+        </picture>
         <div class="life">
             <p>
                 Matthew Perry interpreta a Chandler Bing, un ejecutivo de análisis estadístico y reconfiguración de
@@ -295,7 +315,11 @@
 
     <div style="display: none;" id="DS" class="info-box">
         <h1>Ross Geller</h1>
-        <img width="50%" src="./img/david.webp">
+        <picture style="text-align: center;">
+            <source media="(max-width: 699px)" srcset="img/david_mobile_ipad.png" />
+            <source media="(min-width: 700px)" srcset="img/david.webp" />
+            <img width="50%" src="img/david.webp" alt="Jennifer Aniston" />
+        </picture>
         <div class="life">
             <p>
                 David Schwimmer interpreta a Ross Geller, un paleontólogo doctorado, que trabaja en el museo de
@@ -363,7 +387,11 @@
 
     <div style="display: none;" id="ML" class="info-box">
         <h1>Matt LeBlanc</h1>
-        <img width="50%" src="./img/matt.webp">
+        <picture style="text-align: center;">
+            <source media="(max-width: 699px)" srcset="img/matt_mobile_ipad.png" />
+            <source media="(min-width: 700px)" srcset="img/matt.webp" />
+            <img src="img/matt.webp" alt="Jennifer Aniston" />
+        </picture>
         <div class="life">
             <p>
                 Matt LeBlanc interpreta a Joey Tribbiani, un actor y amante de la comida quien se hace famoso por su
@@ -424,6 +452,12 @@
             <a href="./categoria.html"><i class="fa fa-chevron-left" aria-hidden="true"></i>Volver</a>
         </div>
     </div>
+
+    <div style="text-align: center; margin-top: 2rem; margin-bottom: 70px;">
+        <img src="img/amigos_final.jpeg">
+    </div>
+
+    <include src="footer.html"></include>
 </body>
 
 </html>
