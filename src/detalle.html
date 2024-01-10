@@ -6,7 +6,7 @@
     <title>Friends</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.css">
-    <script type="module" src="app.js"></script>
+    <script async type="module" src="app.js"></script>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
         <picture style="text-align: center;">
             <source media="(max-width: 699px)" srcset="img/jennifer_mobile_ipad.png" />
             <source media="(min-width: 700px)" srcset="img/jennifer.jpeg" />
-            <img width="50%" src="img/jennifer.jpeg" alt="Jennifer Aniston" />
+            <img loading="lazy" width="50%" src="img/jennifer.jpeg" alt="Jennifer Aniston" />
         </picture>
         <div class="life">
             <p>
@@ -49,7 +49,8 @@
                 Estados Unidos».
             </p>
         </div>
-        <img srcset="img/rachel_mobile.jpg 320w, img/rachel_ipad.webp 640w, img/rachel_desktop.jpeg 1024w"
+        <img loading="lazy"
+            srcset="img/rachel_mobile.jpg 320w, img/rachel_ipad.webp 640w, img/rachel_desktop.jpeg 1024w"
             sizes="(max-width: 320px) 320px, (max-width:640px) 640px, (max-width:1024px) 1024px">
 
         <div class="datos-curiosos">
@@ -100,7 +101,7 @@
         <picture style="text-align: center;">
             <source media="(max-width: 699px)" srcset="img/courtney_mobile_ipad.png" />
             <source media="(min-width: 700px)" srcset="img/courtney.jpeg" />
-            <img width="50%" src="img/courtney.jpeg" alt="Jennifer Aniston" />
+            <img loading="lazy" width="50%" src="img/courtney.jpeg" alt="Jennifer Aniston" />
         </picture>
         <div class="life">
             <p>
@@ -125,7 +126,7 @@
             </p>
         </div>
 
-        <img srcset="img/monica_mobile.jpg 1.5x, img/monica_ipad.webp 2x, img/monica_desktop.avif 3x">
+        <img loading="lazy" srcset="img/monica_mobile.jpg 1.5x, img/monica_ipad.webp 2x, img/monica_desktop.avif 3x">
 
         <div class="datos-curiosos">
             <h2>Datos curiosos:</h2>
@@ -177,7 +178,7 @@
         <picture style="text-align: center;">
             <source media="(max-width: 699px)" srcset="img/lisa_mobile_ipad.png" />
             <source media="(min-width: 700px)" srcset="img/lisa.jpg" />
-            <img src="img/lisa.jpg" alt="Jennifer Aniston" />
+            <img loading="lazy" src="img/lisa.jpg" alt="Jennifer Aniston" />
         </picture>
         <div class="life">
             <p>
@@ -249,7 +250,7 @@
         <picture style="text-align: center;">
             <source media="(max-width: 699px)" srcset="img/matthew_mobile_ipad.png" />
             <source media="(min-width: 700px)" srcset="img/matthew.jpeg" />
-            <img width="50%" src="img/matthew.jpeg" alt="Jennifer Aniston" />
+            <img loading="lazy" width="50%" src="img/matthew.jpeg" alt="Jennifer Aniston" />
         </picture>
         <div class="life">
             <p>
@@ -320,7 +321,7 @@
         <picture style="text-align: center;">
             <source media="(max-width: 699px)" srcset="img/david_mobile_ipad.png" />
             <source media="(min-width: 700px)" srcset="img/david.webp" />
-            <img width="50%" src="img/david.webp" alt="Jennifer Aniston" />
+            <img loading="lazy" width="50%" src="img/david.webp" alt="Jennifer Aniston" />
         </picture>
         <div class="life">
             <p>
@@ -392,7 +393,7 @@
         <picture style="text-align: center;">
             <source media="(max-width: 699px)" srcset="img/matt_mobile_ipad.png" />
             <source media="(min-width: 700px)" srcset="img/matt.webp" />
-            <img src="img/matt.webp" alt="Jennifer Aniston" />
+            <img loading="lazy" src="img/matt.webp" alt="Jennifer Aniston" />
         </picture>
         <div class="life">
             <p>
@@ -456,7 +457,7 @@
     </div>
 
     <div style="text-align: center; margin-top: 2rem; margin-bottom: 70px;">
-        <img src="img/amigos_final.jpeg">
+        <img loading="lazy" src="img/amigos_final.jpeg">
     </div>
 
     <include src="footer.html"></include>
