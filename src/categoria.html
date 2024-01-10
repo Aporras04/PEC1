@@ -16,7 +16,11 @@
             <h2>Actores:</h2>
             <div id="container-actores">
                 <a href="./detalle.html#1" class="box-actores">
-                    <img width="180" height="200" src="img/jennifer.webp" alt="jennifer">
+                    <!-- <img src="img/jennifer.webp" alt="jennifer"> -->
+                    <img width="180" height="200" loading="lazy"
+                        srcset="img/rachel_mobile.jpg 320w, img/rachel_ipad.webp 640w, img/rachel_desktop.jpeg 1024w"
+                        sizes="(max-width: 320px) 320px, (max-width:640px) 640px, (max-width:1024px) 1024px"
+                        alt="jennifer">
                     <p>Jennifer Aniston</p>
                 </a>
                 <a href="./detalle.html#2" class="box-actores">
